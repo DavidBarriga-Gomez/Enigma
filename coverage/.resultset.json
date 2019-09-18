@@ -1,12 +1,68 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/Users/davidgomez/turing/module_1/projects/enigma/lib/essential_methods.rb": [
+      "/Users/davidgomez/turing/module_1/projects/enigma/lib/key.rb": [
         1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/davidgomez/turing/module_1/projects/enigma/lib/date.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/davidgomez/turing/module_1/projects/enigma/lib/shift.rb": [
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
         null,
         null
       ]
     },
-    "timestamp": 1568396152
+    "timestamp": 1568803639
   }
 }

@@ -4,9 +4,9 @@ class Key
 # end
 
   def random_numbers
-    number = []
+    number = ""
     5.times do
-    number.push rand(11)
+    number << rand(11).to_s
     end
     number
   end
