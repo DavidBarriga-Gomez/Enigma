@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-09-18T00:09:15-06:00">2019-09-18T00:09:15-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-09-18T04:47:19-06:00">2019-09-18T04:47:19-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">57.14%</span></span>
+    (<span class="covered_percent"><span class="red">44.83%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.56
+         0.44
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>3</b> files in total.
-    <b>14</b> relevant lines. 
-    <span class="green"><b>8</b> lines covered</span> and
-    <span class="red"><b>6</b> lines missed </span>
+    <b>29</b> relevant lines. 
+    <span class="green"><b>13</b> lines covered</span> and
+    <span class="red"><b>16</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -72,12 +72,12 @@
       
       <tr>
         <td class="strong"><a href="#f7103a12df8b6b4da1fb291ea24ec04095024d0f" class="src_link" title="lib/shift.rb">lib/shift.rb</a></td>
-        <td class="red strong">60.0 %</td>
-        <td>10</td>
-        <td>5</td>
-        <td>3</td>
-        <td>2</td>
-        <td>0.6</td>
+        <td class="red strong">40.0 %</td>
+        <td>36</td>
+        <td>20</td>
+        <td>8</td>
+        <td>12</td>
+        <td>0.4</td>
       </tr>
       
     </tbody>
@@ -251,11 +251,11 @@
         <div class="source_table" id="f7103a12df8b6b4da1fb291ea24ec04095024d0f">
   <div class="header">
     <h3>lib/shift.rb</h3>
-    <h4><span class="red">60.0 %</span> covered</h4>
+    <h4><span class="red">40.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>20</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>12</b> lines missed.</span>
     </div>
   </div>
   
@@ -265,7 +265,7 @@
         <li class="never" data-hits="" data-linenumber="1">
           
           
-          <code class="ruby"># module EssentialMethods</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
@@ -283,13 +283,13 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  def initialize(digits, date)</code>
+          <code class="ruby">  def initialize(key, date)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">    @digits = digits.to_i</code>
+          <code class="ruby">    @key = key</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
@@ -316,7 +316,163 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def alphabet</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="11">
+          
+          
+          <code class="ruby">    (&quot;a&quot;..&quot;z&quot;).to_a.push(&quot; &quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def joined_keys</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    @key.chars.each_cons(2).map do |num|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">      num.join.to_i</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def date_to_key</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">    int_array = []</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">    num = (@date.to_i * @date.to_i).to_s.chars[-4..-1]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="23">
+          
+          
+          <code class="ruby">    num.each do |num|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">      int_array.push num.to_i</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
+          
+          <code class="ruby">    int_array</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def final_key(char)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
+          
+          <code class="ruby">    joined_keys[char] + date_to_key[char]</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def shift_alphabet(char)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="34">
+          
+          
+          <code class="ruby">    alphabet.rotate(final_key(char))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
           
           
           <code class="ruby">end</code>
