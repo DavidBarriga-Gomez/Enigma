@@ -1,7 +1,8 @@
-require 'minitest/autorun'
-require 'minitest/pride'
-require './lib/key'
-require 'pry'
+# require 'minitest/autorun'
+# require 'minitest/pride'
+# require './lib/key'
+require './test_helper'
+# require 'pry'
 
 class KeyTest < Minitest::Test
   def setup
